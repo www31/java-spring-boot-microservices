@@ -36,3 +36,5 @@ git commit -m "third commit"
 git push origin main
 git reset HEAD^ #reset commit
 git reset --hard #reset unstaged
+#add line1
+#add line2
