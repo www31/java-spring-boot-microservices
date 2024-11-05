@@ -9,7 +9,7 @@ dir
 cd "T:\Downloads\kuya\GitHub"
 git init
 start .
-git clone https://www31:<secretkey>@github.com/www31/java-spring-boot-microservices.git
+git clone https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
 dir
 cd java-spring-boot-microservices
 git status
@@ -24,7 +24,7 @@ git config -e
 i
 :wq
 git config --list --show-origin
-git remote add origin https://www31:<secretkey>@github.com/www31/java-spring-boot-microservices.git
+git remote add origin https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
 git remote -v
 git pull origin main
 git status
