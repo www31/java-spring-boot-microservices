@@ -1,4 +1,4 @@
-package com.telusko.joblisting;
+package com.telusko.joblisting.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
