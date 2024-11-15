@@ -1,46 +1,65 @@
 # java-spring-boot-microservices
+<ul>
+  <li>git init :grinning:</li>
+  <li>dir :smiley:</li>
+  <li>rm -rf .git :smile:</li>
+  <li>cd T:\ :grin:</li>
+  <li>pwd :laughing::satisfied:</li>
+  <li>dir :sweat_smile:</li>
+  <li>cd "T:\Downloads\kuya\GitHub" :rofl:</li>
+  <li>dir :sweat_smile: </li>
+  <li>cd "T:\Downloads\kuya\GitHub" :rofl: </li>
+  <li>git init :joy:</li>
+  <li>start . :slightly_smiling_face:</li>
+  <li>git clone https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git :upside_down_face:</li>
+  <li>dir :wink:</li>
+  <li>cd java-spring-boot-microservices :blush:</li>
+  <li>git status :innocent:</li>
+  <li>git remote -v :smiling_face_with_three_hearts:</li>
+  <li>git branch -vv :heart_eyes:</li>
+  <li>git log :star_struck:</li>
+  <li>git config --system --edit :kissing_heart:</li>
+  <li>git config --global --edit :kissing:</li>
+  <li>git config --local --edit :relaxed:</li>
+  <li>git config -e :kissing_closed_eyes:</li>
+  <li>:q! :kissing_smiling_eyes: </li>
+  <li>i :smiling_face_with_tear:</li>
+  <li>:wq :yum:</li>
+  <li>git config --list --show-origin :stuck_out_tongue:</li>
+  <li>git remote add origin https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git :stuck_out_tongue_winking_eye:</li>
+  <li>git remote -v :zany_face:</li>
+  <li>git pull origin main :stuck_out_tongue_closed_eyes:</li>
+  <li>git status :money_mouth_face:</li>
+  <li>git config user.name "zyx" :hugs:</li>
+  <li>git config user.email "164595941+www31@users.noreply.github.com" :hand_over_mouth:</li>
+  <li>git config --list --show-origin :shushing_face:</li>
+  <li>git add . :thinking:</li>
+  <li>git commit -m "third commit" :zipper_mouth_face:</li>
+  <li>git push origin main :raised_eyebrow:</li>
+  <li>git reset HEAD^ #reset commit :neutral_face:</li>
+  <li>git reset --hard #reset unstaged :expressionless:</li>
+  <li>#add line1 :no_mouth:</li>
+  <li>#add line2 :face_in_clouds:</li>  
+</ul>  
 
-- :grinning: git init
-- :smiley: dir
-- :smile: rm -rf .git
-- :grin: cd T:\
-- :laughing::satisfied: pwd
-- :sweat_smile: dir
-- :rofl: cd "T:\Downloads\kuya\GitHub"
-- :joy: git init
-- :slightly_smiling_face: start .
-- :upside_down_face: git clone https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
-- :wink: dir
-- :blush: cd java-spring-boot-microservices
-- :innocent: git status
-- :smiling_face_with_three_hearts: git remote -v
-- :heart_eyes: git branch -vv
-- :star_struck: git log
-- :kissing_heart: git config --system --edit
-- :kissing: git config --global --edit
-- :relaxed: git config --local --edit
-- :kissing_closed_eyes: git config -e
-- :kissing_smiling_eyes: :q!
-- :smiling_face_with_tear: i
-- :yum: :wq
-- :stuck_out_tongue: git config --list --show-origin
-- :stuck_out_tongue_winking_eye: git remote add origin https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
-- :zany_face: git remote -v
-- :stuck_out_tongue_closed_eyes: git pull origin main
-- :money_mouth_face: git status
-- :hugs: git config user.name "zyx"
-- :hand_over_mouth: git config user.email "164595941+www31@users.noreply.github.com"
-- :shushing_face: git config --list --show-origin
-- :thinking: git add .
-- :zipper_mouth_face: git commit -m "third commit"
-- :raised_eyebrow: git push origin main
-- :neutral_face: git reset HEAD^ #reset commit
-- :expressionless: git reset --hard #reset unstaged
-- :no_mouth: #add line1
-- :face_in_clouds: #add line2
 
-:smirk: POST: http://localhost:8765/question-service/question/addQuestions
-:unamused: POST: http://localhost:8080/question/addQuestions
+<table>
+  <tr>
+    <th>ID</th>
+    <th>HTTP</th>
+    <th>API</th>
+  </tr>
+  <tr>
+    <td>:smirk:</td>
+    <td>POST</td>
+    <td>http://localhost:8765/question-service/question/addQuestions</td>
+  </tr>
+    <tr>
+    <td>:unamused:</td>
+    <td>POST</td>
+    <td>http://localhost:8080/question/addQuestions</td>
+  </tr>
+</table>
 
 ```json
 [
@@ -223,8 +242,23 @@
 ]
 ```
 
-:roll_eyes: POST: http://localhost:8765/question-service/question/add
-:grimacing: POST: http://localhost:8090/question/add
+<table>
+  <tr>
+    <th>ID</th>
+    <th>HTTP</th>
+    <th>API</th>
+  </tr>
+  <tr>
+    <td>:roll_eyes:</td>
+    <td>POST</td>
+    <td>http://localhost:8765/question-service/question/add</td>
+  </tr>
+    <tr>
+    <td>:grimacing:</td>
+    <td>POST</td>
+    <td>http://localhost:8090/question/add</td>
+  </tr>
+</table>
 
 	{
 		"questionTitle" : "Maximum value for short in java",
@@ -237,12 +271,46 @@
 		"category" : "Java"
 	}
 
-:face_exhaling: GET: http://localhost:8090/quiz/create?category=Java&numQ=5&title=JQuiz
-:lying_face: GET: http://localhost:8080/question/category/Java
-:relieved: GET: http://localhost:8765/QUIZ-SERVICE/quiz/get/1
-:pensive: GET: http://localhost:8090/quiz/get/1
+<table>
+  <tr>
+    <th>ID</th>
+    <th>HTTP</th>
+    <th>API</th>
+  </tr>
+  <tr>
+    <td>:face_exhaling:</td>
+    <td>GET</td>
+    <td>http://localhost:8090/quiz/create?category=Java&numQ=5&title=JQuiz</td>
+  </tr>
+  <tr>
+    <td>:lying_face:</td>
+    <td>GET</td>
+    <td>http://localhost:8080/question/category/Java</td>
+  </tr>
+  <tr>
+    <td>:relieved:</td>
+    <td>GET</td>
+    <td>http://localhost:8765/QUIZ-SERVICE/quiz/get/1</td>
+  </tr>
+  <tr>
+    <td>:pensive:</td>
+    <td>GET</td>
+    <td>http://localhost:8090/quiz/get/1</td>
+  </tr>
+</table>
 
-:sleepy: POST: http://localhost:8765/quiz-service/quiz/submit/0
+<table>
+  <tr>
+    <th>ID</th>
+    <th>HTTP</th>
+    <th>API</th>
+  </tr>
+  <tr>
+    <td>:sleepy:</td>
+    <td>POST</td>
+    <td>http://localhost:8765/quiz-service/quiz/submit/0</td>
+  </tr>
+</table>
 
 ```json
 [
@@ -269,7 +337,18 @@
 ]
 ```
 
-:drooling_face: POST: http://localhost:8765/question-service/question/getScore
+<table>
+  <tr>
+    <th>ID</th>
+    <th>HTTP</th>
+    <th>API</th>
+  </tr>
+  <tr>
+    <td>:drooling_face:</td>
+    <td>POST</td>
+    <td>http://localhost:8765/question-service/question/getScore</td>
+  </tr>
+</table>
 
 ```json
 [
