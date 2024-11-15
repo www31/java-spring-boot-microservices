@@ -1,47 +1,48 @@
 # java-spring-boot-microservices
 
-git init
-dir
-rm -rf .git
-cd T:\
-pwd
-dir
-cd "T:\Downloads\kuya\GitHub"
-git init
-start .
-git clone https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
-dir
-cd java-spring-boot-microservices
-git status
-git remote -v
-git branch -vv
-git log
-git config --system --edit
-git config --global --edit
-git config --local --edit
-git config -e
-:q!
-i
-:wq
-git config --list --show-origin
-git remote add origin https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
-git remote -v
-git pull origin main
-git status
-git config user.name "zyx"
-git config user.email "164595941+www31@users.noreply.github.com"
-git config --list --show-origin
-git add .
-git commit -m "third commit"
-git push origin main
-git reset HEAD^ #reset commit
-git reset --hard #reset unstaged
-#add line1
-#add line2
+- :grinning: git init
+- :smiley: dir
+- :smile: rm -rf .git
+- :grin: cd T:\
+- :laughing::satisfied: pwd
+- :sweat_smile: dir
+- :rofl: cd "T:\Downloads\kuya\GitHub"
+- :joy: git init
+- :slightly_smiling_face: start .
+- :upside_down_face: git clone https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
+- :wink: dir
+- :blush: cd java-spring-boot-microservices
+- :innocent: git status
+- :smiling_face_with_three_hearts: git remote -v
+- :heart_eyes: git branch -vv
+- :star_struck: git log
+- :kissing_heart: git config --system --edit
+- :kissing: git config --global --edit
+- :relaxed: git config --local --edit
+- :kissing_closed_eyes: git config -e
+- :kissing_smiling_eyes: :q!
+- :smiling_face_with_tear: i
+- :yum: :wq
+- :stuck_out_tongue: git config --list --show-origin
+- :stuck_out_tongue_winking_eye: git remote add origin https://www31:<secretcode>@github.com/www31/java-spring-boot-microservices.git
+- :zany_face: git remote -v
+- :stuck_out_tongue_closed_eyes: git pull origin main
+- :money_mouth_face: git status
+- :hugs: git config user.name "zyx"
+- :hand_over_mouth: git config user.email "164595941+www31@users.noreply.github.com"
+- :shushing_face: git config --list --show-origin
+- :thinking: git add .
+- :zipper_mouth_face: git commit -m "third commit"
+- :raised_eyebrow: git push origin main
+- :neutral_face: git reset HEAD^ #reset commit
+- :expressionless: git reset --hard #reset unstaged
+- :no_mouth: #add line1
+- :face_in_clouds: #add line2
 
-POST: http://localhost:8765/question-service/question/addQuestions
-POST: http://localhost:8080/question/addQuestions
+:smirk: POST: http://localhost:8765/question-service/question/addQuestions
+:unamused: POST: http://localhost:8080/question/addQuestions
 
+```json
 [
 	{
 		"id" : 1,
@@ -220,9 +221,10 @@ POST: http://localhost:8080/question/addQuestions
 		"category" : "Python"
 	}
 ]
+```
 
-POST: http://localhost:8765/question-service/question/add
-POST: http://localhost:8090/question/add
+:roll_eyes: POST: http://localhost:8765/question-service/question/add
+:grimacing: POST: http://localhost:8090/question/add
 
 	{
 		"questionTitle" : "Maximum value for short in java",
@@ -235,13 +237,14 @@ POST: http://localhost:8090/question/add
 		"category" : "Java"
 	}
 
-GET: http://localhost:8090/quiz/create?category=Java&numQ=5&title=JQuiz
-GET: http://localhost:8080/question/category/Java
-GET: http://localhost:8765/QUIZ-SERVICE/quiz/get/1
-GET: http://localhost:8090/quiz/get/1
+:face_exhaling: GET: http://localhost:8090/quiz/create?category=Java&numQ=5&title=JQuiz
+:lying_face: GET: http://localhost:8080/question/category/Java
+:relieved: GET: http://localhost:8765/QUIZ-SERVICE/quiz/get/1
+:pensive: GET: http://localhost:8090/quiz/get/1
 
-POST: http://localhost:8765/quiz-service/quiz/submit/0
+:sleepy: POST: http://localhost:8765/quiz-service/quiz/submit/0
 
+```json
 [
 	{
 		"id" : 2,
@@ -264,9 +267,11 @@ POST: http://localhost:8765/quiz-service/quiz/submit/0
 		"response" : "30"
 	}
 ]
+```
 
-POST: http://localhost:8765/question-service/question/getScore
+:drooling_face: POST: http://localhost:8765/question-service/question/getScore
 
+```json
 [
 	{
 		"id" : 2,
@@ -289,3 +294,6 @@ POST: http://localhost:8765/question-service/question/getScore
 		"response" : "3"
 	}
 ]
+```
+#### https://www.sitepoint.com/github-profile-readme/
+#### https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
