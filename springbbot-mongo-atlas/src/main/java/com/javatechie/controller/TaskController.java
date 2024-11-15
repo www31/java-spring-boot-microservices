@@ -15,11 +15,11 @@ public class TaskController {
     @Autowired
     private TaskService service;
 
-    @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
-    public Task createTask(@RequestBody Task task){
-        return service.addTask(task);
-    }
+//    @PostMapping
+//    @ResponseStatus(HttpStatus.CREATED)
+//    public Task createTask(@RequestBody Task task){
+//        return service.addTask(task);
+//    }
 
     @GetMapping
     public List<Task> getTasks() {
@@ -42,10 +42,10 @@ public class TaskController {
         return service.getTaskByAssignee(assignee);
     }
 
-    @PutMapping
-    public Task modifyTask(@RequestBody Task task){
-        return service.updateTask(task);
-    }
+//    @PutMapping
+//    public Task modifyTask(@RequestBody Task task){
+//        return service.updateTask(task);
+//    }
 
     @DeleteMapping("/{taskId}")
     public String deleteTask(@PathVariable String taskId){

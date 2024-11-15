@@ -18,10 +18,10 @@ public class TaskService {
     //CRUD  CREATE , READ , UPDATE , DELETE
 
 
-    public Task addTask(Task task) {
-        task.setTaskId(UUID.randomUUID().toString().split("-")[0]);
-        return repository.save(task);
-    }
+//    public Task addTask(Task task) {
+//        task.setTaskId(UUID.randomUUID().toString().split("-")[0]);
+//        return repository.save(task);
+//    }
 
     public List<Task> findAllTasks() {
         return repository.findAll();
@@ -39,16 +39,16 @@ public class TaskService {
         return repository.getTasksByAssignee(assignee);
     }
 
-    public Task updateTask(Task taskRequest){
+//    public Task updateTask(Task taskRequest){
         //get the existing document from DB
         // populate new value from request to existing object/entity/document
-        Task existingTask = repository.findById(taskRequest.getTaskId()).get();
-        existingTask.setDescription(taskRequest.getDescription());
-        existingTask.setSeverity(taskRequest.getSeverity());
-        existingTask.setAssignee(taskRequest.getAssignee());
-        existingTask.setStoryPoint(taskRequest.getStoryPoint());
-        return repository.save(existingTask);
-    }
+//        Task existingTask = repository.findById(taskRequest.getTaskId()).get();
+//        existingTask.setDescription(taskRequest.getDescription());
+//        existingTask.setSeverity(taskRequest.getSeverity());
+//        existingTask.setAssignee(taskRequest.getAssignee());
+//        existingTask.setStoryPoint(taskRequest.getStoryPoint());
+//        return repository.save(existingTask);
+//    }
 
     public String deleteTask(String taskId){
         repository.deleteById(taskId);
