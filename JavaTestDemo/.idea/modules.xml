@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-spring-boot-microservices.iml" filepath="$PROJECT_DIR$/.idea/java-spring-boot-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTestDemo.iml" filepath="$PROJECT_DIR$/JavaTestDemo.iml" />
     </modules>
   </component>
 </project>

@@ -376,3 +376,31 @@
 ```
 #### https://www.sitepoint.com/github-profile-readme/
 #### https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+#### Spring Boot Heroku: https://www.youtube.com/watch?v=FHL0iZbil-o
+#### Spring Boot Microservices: https://youtu.be/Jl9OKQ92SJU?t=49074
+#### Spring Boot MongoDB: https://www.youtube.com/watch?v=qVNOw9TWwxo
+#### Spring Boot H2: https://www.youtube.com/watch?v=wQLva08PcJY
+#### https://stackoverflow.com/questions/52453701/
+#### how-to-use-h2-db-for-multiple-instances-of-same-application
+#### http://www.h2database.com/javadoc/org/h2/tools/Server.html
+#### https://stackoverflow.com/questions/12272499/maven-what-is-the-runtime-scope-purpose
+#### https://medium.com/codex/element-collection-vs-one-to-many-in-jpa-andhibernate-e4ae83642d99
+#### https://www.logicbig.com/tutorials/java-ee-tutorial/jpa/embedded-element-collection.html
+#### https://www.logicbig.com/tutorials/java-ee-tutorial/jpa/embedded-element-collection.html
+#### https://stackoverflow.com/questions/66133925/spring-boot-api-gateway-unable-to-resolve-name
+#### COBOL Programming Tutorial: From Basics to Advanced |Best COBOL Course | Learn COBOL Programming. 
+#### https://youtu.be/wrdi1sXo3ws
+#### 5 Things to Know Before Investing in Stocks
+#### https://www.investopedia.com/financial-edge/0411/5-essential-things-you-need-to-know-about-every-stock-you-buy.aspx
+#### https://ph.investing.com/equities/accenture-ltd
+#### The following are Docker Registries existed in Market
+#### It allows to register and store docker images
+#### Docker Registry --- Most popularly used: https://hub.docker.com
+#### Amazon Elastic Container Registry: https://aws.amazon.com/ecr
+#### Google Container Registry --- Artifact Registry: https://cloud.google.com/artifact-registry
+#### Microsoft: https://azure.microsoft.com/en-in/products/container-registry
+#### Red Hat --- First Docker Registry existed: https://quay.io
+#### [2024] Java Spring Boot Microservices with k8s, Docker, AWS | Monolithic to Microservices [PART 1]
+#### https://youtu.be/BLlEgtp2_i8?t=29008
+#### [2024] Java Spring Boot Microservices with k8s, Docker, AWS | Monolithic to Microservices [PART 2]
+#### https://youtu.be/EeQRAxXWDF4?t=3740
